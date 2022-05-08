@@ -21,4 +21,4 @@ while True:
         print("Game Over!")
         break;
     else:
-        print("Sorry, I don't understand that...try 'help'")
+        print("Sorry, I don't understand that...try 'help' instead!")
