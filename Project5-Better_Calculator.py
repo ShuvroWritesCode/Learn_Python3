@@ -14,5 +14,7 @@ elif operator == '/':
     print(f'Result: {num1 / num2}')
 elif operator == '**':
     print(f'Result: {num1 ** num2}')
+elif operator == '%':
+    print(f'Result: {num1 % num2}')
 else:
     print("Invalid Operation!")
