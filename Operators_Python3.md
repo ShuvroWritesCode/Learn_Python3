@@ -1,0 +1,97 @@
+## Operatos in Python
+
+Python has different kinds of operators and to me, the number of operators in Python is larger than any other popular languages.
+A list of classifications of operators in python is given.
+
+- Arithmetic operators
+- Assignment operators
+- Comparison operators
+- Logical operators
+- Identity operators
+- Membership operators
+- Bitwise operators
+
+----------
+
+### Python Arithmetic Operators
+Arithmetic operations like addition, subtraction, multiplication etc. requires these operators. 
+
+| Operator | Name | Example | Return Type | Learn More |
+|----------|------|---------|-------------|------------|
+| + | Addition | x+y | int | [Addition Operator](https://blog.finxter.com/python-addition-operator/) |
+| - | Subtraction | x-y | int | [Subtraction Operator](https://blog.finxter.com/python-subtraction-operator/) |
+| * | Multiplication | x*y | int | [Multiplication Operator](https://blog.finxter.com/python-multiplication-operator/) |
+| / | Division | x/y | float | [Division Operator](https://www.educative.io/edpresso/what-are-division-operators-in-python) |
+| % | Modulus | x%y | int | [Modulus Operator](https://www.geeksforgeeks.org/what-is-a-modulo-operator-in-python/) |
+| ** | Exponential | x**y | int | [Exponential Operator](https://blog.finxter.com/python-exponent-operator/) |
+| // | Floor Division | x//y | int | [Floor Division Operator](https://www.educative.io/edpresso/what-are-division-operators-in-python) |
+
+### Assignment Operators
+Assignment operators are used to assign values to variables.
+
+| Operator | Example |
+|----------|---------|
+| = |	x = 5	|	
+| += | x += 3 |
+| -= | x -= 3 |	
+| *= | x *= 3 |
+| /= | x /= 3 |
+| %= | x %= 3 |
+| //= |	x //= 3	|
+| **=	| x **= 3	|
+| &=	| x &= 3 |
+| l-= | x l= 3	|
+| ^= | x ^= 3 |
+| >>=	| x >>= 3 |
+| <<=	| x <<= 3 |
+
+### Relational Operators
+Relational operators are used to compare two values.
+
+| Operator | Name |	Example	|
+|----------|------|---------|
+| == | Equal | x == y	|
+| != | Not equal | x != y |	
+| > | Greater than | x > y |	
+| < | Less than | x < y	|
+| >= | Greater than or equal to | x >= y |
+| <= | Less than or equal to | x <= y |
+
+### Logical Operators
+Logical operators are used to combine conditional statements.
+
+| Operator | Use Case | Example |
+|----------|----------|---------|
+| and |	Returns True if both statements are true | x < 5 and  x < 10 |
+| or | Returns True if one of the statements is true | x < 5 or x < 4	|
+| not	| Reverse the result, returns False if the result is true | not(x < 5 and x < 10) |
+
+### Identity Operators
+Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
+
+| Operator | Use Case | Example |
+|----------|----------|---------|
+| is 	 | Returns True if both variables are the same | x is y |
+| is not | Returns True if both variables are different |	x is not y |
+
+### Membership Operators
+Membership operators are used to test if a sequence is presented in an object.
+
+| Operator | Use Case | Example |
+|----------|----------|---------|
+| in | Returns True if a sequence with the specified value is present in other variable | x in y |
+| not in | Returns True if a sequence with the specified value is not present in other variable |	x not in y |
+
+### Bitwise Operators
+Bitwise operators are used to compare binary numbers.
+
+| Operator | Use Case | Example |
+|----------|----------|---------|
+| & |	AND |	Sets each bit to 1 if both bits are 1 |
+| l |	OR | Sets each bit to 1 if one of two bits is 1 |
+| ^ |	XOR |	Sets each bit to 1 if only one of two bits is 1 |
+| ~ |	NOT |	Inverts all the bits |
+| << | Zero fill left shift | Shift left by pushing zeros in from the right and let the leftmost bits fall off |
+| >> |	Signed right shift | Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off |
+
+---------------------
